@@ -1,0 +1,25 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(basemod.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+
+
+.ds4 .touchpad {
+    width: 262px;
+    height: 151px;
+    position: absolute;
+    left: 272px;
+    top: 122px;
+}
+
+.ds4 .touchpad.pressed {
+    background: url(touchpadmod.png) no-repeat center;
+}
+
+/*END PS4 Controller Styling*/
+
